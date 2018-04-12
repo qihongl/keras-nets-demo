@@ -1,3 +1,5 @@
+# reference1: https://github.com/fchollet/deep-learning-models
+# reference2: https://github.com/philipperemy/keras-visualize-activations
 from keras.applications.resnet50 import ResNet50
 from keras.preprocessing import image
 from dep.imagenet_utils import preprocess_input, decode_predictions
