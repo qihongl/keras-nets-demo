@@ -5,7 +5,8 @@ This is a simple demo that...
 - run it on an image 
 - graph the activities for all layers
 
-Dependencies and References: 
-  - fchollet/<a href="https://github.com/fchollet/deep-learning-models">deep-learning-models</a>
-  - philipperemy/<a href="https://github.com/philipperemy/keras-visualize-activations">keras-visualize-activations</a>
+References - the dependencies come from the following repo:
+  - <a href="https://github.com/fchollet">fchollet</a>/<a href="https://github.com/fchollet/deep-learning-models">deep-learning-models</a>
+  - <a href="https://github.com/philipperemy">philipperemy</a>/<a href="https://github.com/philipperemy/keras-visualize-activations">keras-visualize-activations</a>
   
+
