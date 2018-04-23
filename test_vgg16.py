@@ -1,6 +1,6 @@
 # reference1: https://github.com/fchollet/deep-learning-models
 # reference2: https://github.com/philipperemy/keras-visualize-activations
-from keras.applications.resnet50 import ResNet50
+from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from dep.imagenet_utils import preprocess_input, decode_predictions
 from dep.read_acts_keras import get_activations
@@ -9,9 +9,9 @@ import numpy as np
 from os.path import join
 
 # get the model
-model = ResNet50(include_top=True, weights='imagenet',
-                 input_tensor=None, input_shape=None,
-                 pooling=None, classes=1000)
+model = VGG16(include_top=True, weights='imagenet',
+              input_tensor=None, input_shape=None,
+              pooling=None, classes=1000)
 
 # load an image
 img_dir = 'imgs'
