@@ -1,7 +1,7 @@
-# keras_resnet50_demo
+# keras-nets-demo
 
 This is a simple demo that...
-- download ResNet50, pretrained on ImageNet
+- download ResNet50/VGG16, pretrained on ImageNet
 - run it on an image 
 - grab the activities for all layers
 
