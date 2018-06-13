@@ -1,27 +1,12 @@
 '''Trains an LSTM model on the IMDB sentiment classification task.
-The dataset is actually too small for LSTM to be of any advantage
-compared to simpler, much faster methods such as TF-IDF + LogReg.
-# Notes
-- RNNs are tricky. Choice of batch size is important,
-choice of loss and optimizer is critical, etc.
-Some configurations won't converge.
-- LSTM loss decrease patterns during training can be quite different
-from what you see with CNNs/MLPs/etc.
 reference: https://github.com/keras-team/keras/blob/master/examples/imdb_lstm.py
 '''
-
-from keras.models import Sequential
-from keras.layers import Dense, Embedding
-from keras.layers import LSTM
 from keras.callbacks import ReduceLROnPlateau, CSVLogger, ModelCheckpoint
-# from keras.datasets import imdb
-# from keras.preprocessing import sequence
 from data_loader import load_imdb
 from models import get_simple_lstm
 import numpy as np
 import os
 
-# log_root = '/tigress/qlu/logs/keras-resnet/log'
 log_root = 'log'
 data_name = 'imdb'
 model_name = 'lstm1'

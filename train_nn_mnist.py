@@ -6,11 +6,8 @@ from keras.callbacks import ReduceLROnPlateau, CSVLogger, ModelCheckpoint
 from models import get_mnist_net
 import os
 import numpy as np
-# import resnet
 
-# log_root = '/tigress/qlu/logs/keras-resnet/log'
 log_root = 'log'
-
 model_name = 'std'
 
 data_name = 'mnist'
