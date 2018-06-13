@@ -1,6 +1,6 @@
 # keras-nets-demo
 
-Here're some simple simples... 
+Here're some simple examples... 
 - test pretrained ResNet50/VGG16 on an image and grab their neural activities
 - train a simple lstm network
 - train a simple dense/conv net on MNIST with proper logging 
