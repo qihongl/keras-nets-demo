@@ -12,6 +12,7 @@ from os.path import join
 model = ResNet50(include_top=True, weights='imagenet',
                  input_tensor=None, input_shape=None,
                  pooling=None, classes=1000)
+model.summary()
 
 # load an image
 img_dir = 'imgs'
