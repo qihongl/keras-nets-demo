@@ -1,9 +1,9 @@
 # keras-nets-demo
 
-This is a simple demo that...
-- download ResNet50/VGG16, pretrained on ImageNet
-- run it on an image 
-- grab the activities for all layers
+Here're some simple simples... 
+- test pretrained ResNet50/VGG16 on an image and grab their neural activities
+- train a simple lstm network
+- train a simple dense/conv net on MNIST with proper logging 
 
 References - the dependencies come from the following repo:
   - <a href="https://github.com/fchollet">fchollet</a>/<a href="https://github.com/fchollet/deep-learning-models">deep-learning-models</a>
